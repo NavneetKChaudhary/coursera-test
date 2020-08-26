@@ -1,0 +1,95 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    margin:0;
+}
+
+.container .row .col-xl,.container .row .col-md,.container .row .col-lg
+{
+    color:white;
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    border:2px solid white;
+
+}
+.container .row .col-xl div,.container .row .col-md div,.container .row .col-lg div
+{
+    background-color:#55b7c4;
+    padding:2px;
+    color:white;
+    position:relative;
+    text-align:center;
+    margin:auto;
+}
+.container .row .col-xl p,.container .row .col-md p,.container .row .col-lg p{
+    margin:25px 5px 5px 20px
+}
+.container
+{
+    margin-top:40px !important;
+    margin-bottom:100px !important;
+}
+@media(min-width:768px)
+{
+    #md,.navbar-toggler
+    {
+        display:none; 
+    }
+    .collapse
+    {
+        display: none;
+    }
+}
+/*@media(max-width:767px)
+{
+    jumbotran>div>p{ display: none;}
+}*/
+#md
+{
+    list-style: none !important;
+    text-decoration:none !important;
+    
+}
+nav 
+{
+    color:white;
+    font-size:2em;
+    text-align:center;
+    float:auto;
+}
+a:hover
+{
+    text-decoration:none !important ;
+    cursor: pointer !important;
+}
+ ul
+ {
+    margin:0px !important;
+    padding:0px 0px 0px 0px !important;
+ }
+ a
+ {
+    color:#55b7c4 !important;
+ }
+ #menu h1
+ {
+     text-align: center;
+     color:white;
+     margin: 20px auto;
+ }
+ #menu
+ {
+     text-align: center !important;
+     list-style:none;
+     margin: auto;
+     font-size: 1.5em;
+     text-decoration:none;
+ }
+ h5
+ {
+     text-align: center;
+ }
+ #menu ul{ text-align:center !important;margin:auto;}
+ #menu li{ background-color:white ; border:1px solid#55b7c4;margin:2px;}
+ jumbotran>div>p{ font-size:2.5em;color:white; text-align: center;}
+ #menu li:hover{background-color: grey;}
