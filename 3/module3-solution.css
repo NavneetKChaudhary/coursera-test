@@ -41,10 +41,6 @@ body
         display: none;
     }
 }
-/*@media(max-width:767px)
-{
-    jumbotran>div>p{ display: none;}
-}*/
 #md
 {
     list-style: none !important;
